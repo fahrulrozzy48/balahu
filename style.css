@@ -192,14 +192,6 @@ body{
     margin-bottom: 10px;
 }
 
-
-.item hr{
-    width: 160px;
-    height: 3px;
-    background-color: orangered;
-    margin: 0 auto;
-    border: none;
-}
 .about-item:hover{
     background-color: dodgerblue;
 }
@@ -211,8 +203,7 @@ body{
 .about-item:hover hr{
     background-color: white;
 }
-.about-item ,
-.about-item hr{
+.about-item {
     transition: all 400ms linear;
 }
 
