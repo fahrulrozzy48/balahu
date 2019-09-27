@@ -130,6 +130,31 @@ body{
     font-size: 40px;
 }
 
+@media screen and (max-width:480px) {
+    #Halaman{
+        background-image: url(img/code.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        opacity: 0.95;
+    }
+    
+  .heading h1{
+    color: #F8F8F8;
+    font-size: 40px;
+        transform: translateY(35%);
+    }
+    
+    .moto{
+        transform: translateY(200%);
+    }
+    .moto h4{
+        text-align: center;
+        color: #F8F8F8; 
+        font-size: 25px;
+    }
+}
+
 /****************
       Orang
 *****************/
@@ -149,7 +174,6 @@ body{
 
 .home h1{
     margin-top: 10px;
-    padding: 30px;
     text-align: center;
     font-size: 60px;
     color: #313131;
@@ -192,6 +216,14 @@ body{
     margin-bottom: 10px;
 }
 
+
+.item hr{
+    width: 160px;
+    height: 3px;
+    background-color: orangered;
+    margin: 0 auto;
+    border: none;
+}
 .about-item:hover{
     background-color: dodgerblue;
 }
@@ -203,8 +235,28 @@ body{
 .about-item:hover hr{
     background-color: white;
 }
-.about-item {
+.about-item ,
+.about-item hr{
     transition: all 400ms linear;
+}
+
+@media screen and (max-width:480px) {
+    #Profil {
+        margin-top: auto;
+        width: 100%;
+        padding: 0 20px;
+        background: #f9f9f9;
+    }
+
+    
+    .home h1{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: #313131;
+    }
+   
+    
 }
 
 /***** tugas page *****/
@@ -225,6 +277,27 @@ body{
     
 }
 
+@media screen and (max-width:480px) {
+    #Tugas{
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 710px;
+    opacity: 0.9;
+}
+.tugas h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+    
+}
+
+
 /***** about page *****/
 
 #Keterangan{
@@ -237,13 +310,37 @@ body{
     text-align: center;
 }
 #Kata{
-    transform: translateY(5%);
+    transform: translateY(20%);
 }
+.uin img{
+        width:20%;
+    }
 .textuin h3{
     color: white;
     font-size: 40px;
 }
 
+@media screen and (max-width:480px) {
+    #Keterangan{
+        background-image: url(img/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 710px;
+        width: 100%;
+        opacity: 0.8;
+        text-align: center;
+    }
+    #Kata{
+        transform: translateY(70%);
+    }
+    .uin img{
+        width:40%;
+    }
+    .textuin h3{
+        color: white;
+        font-size: 30px;
+    }
+}
 /*********footer*********/
 
 footer {
@@ -255,5 +352,13 @@ footer {
     display: flex;
 }
 .kuliah h6{
-    font-size: 20px;
+    margin-top: 12px;
+    font-size: 30px;
+}
+
+@media screen and (max-width:480px) {
+    .kuliah h6{
+        margin-top: 5px;
+        font-size: 18px;
+    }
 }
