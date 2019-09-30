@@ -104,38 +104,117 @@ body{
 .aboutnav .icon {
   display: none;
 }
+
 /****************
       Page awal
 ****************/
 #Halaman{
-    background-image: url(img/code.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 605px;
-    opacity: 0.95;
-}
+    margin-top: 0;
+        background-image: url(img/code.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 610px;
+        opacity: 0.95;
+    }
 
 .heading h1{
     color: #F8F8F8;
-    font-size: 70px;
-        transform: translateY(15%);
+    font-size: 90px;
+    transform: translateY(50%);
 }
 
 .moto{
-    transform: translateY(150%);
+    transform: translateY(330%);
 }
 .moto h4{
     text-align: center;
     color: #F8F8F8; 
-    font-size: 40px;
+    font-size: 60px;
 }
 
-@media screen and (max-width:480px) {
+
+@media screen and (max-width:1024px) {
     #Halaman{
         background-image: url(img/code.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 600px;
+        height: 610px;
+        opacity: 0.95;
+    }
+    
+  .heading h1{
+    color: #F8F8F8;
+    font-size: 90px;
+        transform: translateY(20%);
+    }
+    
+    .moto{
+        transform: translateY(200%);
+    }
+    .moto h4{
+        text-align: center;
+        color: #F8F8F8; 
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Halaman{
+        background-image: url(img/code.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        opacity: 0.95;
+    }
+    
+  .heading h1{
+    color: #F8F8F8;
+    font-size: 50px;
+        transform: translateY(50%);
+    }
+    
+    .moto{
+        transform: translateY(300%);
+    }
+    .moto h4{
+        text-align: center;
+        color: #F8F8F8; 
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    #Halaman{
+        background-image: url(img/code.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        opacity: 0.95;
+    }
+    
+  .heading h1{
+    color: #F8F8F8;
+    font-size: 45px;
+        transform: translateY(50%);
+    }
+    
+    .moto{
+        transform: translateY(400%);
+    }
+    .moto h4{
+        text-align: center;
+        color: #F8F8F8; 
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #Halaman{
+        background-image: url(img/code.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
         opacity: 0.95;
     }
     
@@ -155,6 +234,30 @@ body{
     }
 }
 
+@media screen and (max-width:320px) {
+    #Halaman{
+        background-image: url(img/code.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        opacity: 0.95;
+    }
+    
+  .heading h1{
+    color: #F8F8F8;
+    font-size: 33px;
+    transform: translateY(70%);
+    }
+    
+    .moto{
+        transform: translateY(480%);
+    }
+    .moto h4{
+        text-align: center;
+        color: #F8F8F8; 
+        font-size: 20px;
+    }
+}
 /****************
       Orang
 *****************/
@@ -173,7 +276,7 @@ body{
 }
 
 .home h1{
-    margin-top: 10px;
+    margin: 20px;
     text-align: center;
     font-size: 60px;
     color: #313131;
@@ -193,13 +296,12 @@ body{
 }
 
 .about-item{
-    margin: 5px;
     background-color: white;
     padding: 27px 40px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     width: 100%;
     height: 320px;
-    
+    margin-bottom: 30px;
 }
 
 .button{
@@ -240,8 +342,90 @@ body{
     transition: all 400ms linear;
 }
 
+@media screen and (max-width:1024px) {
+    #Profil {
+        margin-top: auto;
+        width: 100%;
+        padding: 0 10px;
+        background: #f9f9f9;
+        margin: 0;
+    }
 
-@media screen and (max-width:480px) {
+    
+    .home h1{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 50px;
+        color: #313131;
+    }
+   
+    .about-item{
+        background-color: white;
+        padding: 15px 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 100%;
+        height: 300px;
+        margin-bottom: 50px;
+
+    }
+}
+
+@media screen and ( max-width:768px) {
+    #Profil {
+        margin-top: auto;
+        width: 100%;
+        padding: 0 100px;
+        background: #f9f9f9;
+        margin: 0;
+    }
+
+    
+    .home h1{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 50px;
+        color: #313131;
+    }
+   
+    .about-item{
+        background-color: white;
+        padding: 27px 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 100%;
+        height: 430px;
+
+    }
+}
+
+@media screen and (max-width:425px) {
+    #Profil {
+        margin-top: auto;
+        width: 100%;
+        padding: 0 10px;
+        background: #f9f9f9;
+        margin: 0;
+    }
+
+    
+    .home h1{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 40px;
+        color: #313131;
+    }
+   
+    .about-item{
+        margin: 0;
+        background-color: white;
+        padding: 27px 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 100%;
+        height: 300px;
+
+    }
+}
+
+@media screen and (max-width:375px) {
     #Profil {
         margin-top: auto;
         width: 100%;
@@ -259,12 +443,41 @@ body{
     }
    
     .about-item{
-        margin: 5px;
+        margin: 0;
         background-color: white;
         padding: 27px 40px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         width: 100%;
         height: 270px;
+
+    }
+}
+
+@media screen and (max-width:320px) {
+    #Profil {
+        margin-top: auto;
+        width: 100%;
+        padding: 0;
+        background: #f9f9f9;
+        margin: 0;
+    }
+
+    
+    .home h1{
+        margin-top: 15px;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 30px;
+        color: #313131;
+    }
+   
+    .about-item{
+        margin: 0;
+        background-color: white;
+        padding: 37px 50px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 100%;
+        height: 230px;
 
     }
 }
@@ -287,26 +500,104 @@ body{
     
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1024px) {
     #Tugas{
-    background-image: url(img/2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;
-    height: 710px;
-    opacity: 0.9;
-}
-.tugas h1{
-    text-align: center;
-    font-size: 70px;
-    color: white;
-    margin: 0;
-    padding: 0;
+        background-image: url(img/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        height: 800px;
+        opacity: 0.9;
+    }
+    .tugas h1{
+        text-align: center;
+        font-size: 70px;
+        color: white;
+        margin: 0;
+        padding-top: 80px;
+
+    }
     
 }
+@media screen and (max-width:768px) {
+    #Tugas{
+        background-image: url(img/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        height: 760px;
+        opacity: 0.9;
+    }
+    .tugas h1{
+        text-align: center;
+        font-size: 70px;
+        color: white;
+        margin: 0;
+        padding-top: 70px;
+
+    }
     
 }
 
+@media screen and (max-width:425px) {
+    #Tugas{
+        background-image: url(img/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        height: 550px;
+        opacity: 0.9;
+    }
+    .tugas h1{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        margin: 0;
+        padding-top: 53px;
+
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    #Tugas{
+        background-image: url(img/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        height: 500px;
+        opacity: 0.9;
+    }
+    .tugas h1{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        margin: 0;
+        padding-top: 55px;
+
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    #Tugas{
+        background-image: url(img/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        height: 500px;
+        opacity: 0.9;
+    }
+    .tugas h1{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        margin: 0;
+        padding-top: 55px;
+
+    }
+    
+}
 
 /***** about page *****/
 
@@ -330,12 +621,34 @@ body{
     font-size: 40px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1024px) {
     #Keterangan{
         background-image: url(img/3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 710px;
+        height: 800px;
+        width: 100%;
+        opacity: 0.8;
+        text-align: center;
+    }
+    #Kata{
+        transform: translateY(80%);
+    }
+    .uin img{
+        width:20%;
+    }
+    .textuin h3{
+        color: white;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Keterangan{
+        background-image: url(img/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 760px;
         width: 100%;
         opacity: 0.8;
         text-align: center;
@@ -344,11 +657,77 @@ body{
         transform: translateY(70%);
     }
     .uin img{
-        width:40%;
+        width:30%;
     }
     .textuin h3{
         color: white;
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #Keterangan{
+        background-image: url(img/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 100%;
+        opacity: 0.8;
+        text-align: center;
+    }
+    #Kata{
+        transform: translateY(30%);
+    }
+    .uin img{
+        width:50%;
+    }
+    .textuin h3{
+        color: white;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #Keterangan{
+        background-image: url(img/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        opacity: 0.8;
+        text-align: center;
+    }
+    #Kata{
+        transform: translateY(30%);
+    }
+    .uin img{
+        width:50%;
+    }
+    .textuin h3{
+        color: white;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #Keterangan{
+        background-image: url(img/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        opacity: 0.8;
+        text-align: center;
+    }
+    #Kata{
+        transform: translateY(40%);
+    }
+    .uin img{
+        width:50%;
+    }
+    .textuin h3{
+        color: white;
+        font-size: 26px;
     }
 }
 /*********footer*********/
@@ -366,9 +745,37 @@ footer {
     font-size: 30px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
+    .kuliah h6{
+        margin-top: 10px;
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .kuliah h6{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .kuliah h6{
+        margin-top: 8px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:375px) {
     .kuliah h6{
         margin-top: 5px;
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .kuliah h6{
+        margin-top: 10px;
+        font-size: 14px;
     }
 }
